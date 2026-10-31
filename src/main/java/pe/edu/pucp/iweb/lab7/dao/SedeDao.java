@@ -4,11 +4,12 @@ import java.util.ArrayList;
 
 import pe.edu.pucp.iweb.lab7.beans.Sede;
 
-public class SedeDao { // TODO 2a: debe heredar de BaseDao
+public class SedeDao extends BaseDao{ // TODO 2a: debe heredar de BaseDao
 
     /**
      * Ejercicio 2c: retorna todas las sedes ordenadas por nombre.
      */
+
     public ArrayList<Sede> listar() {
         ArrayList<Sede> lista = new ArrayList<>();
         // TODO 2c
