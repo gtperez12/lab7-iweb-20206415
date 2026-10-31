@@ -10,7 +10,7 @@ import java.sql.SQLException;
  *  - SedeDao y EquipoDao deben heredar de ella y obtener la conexión
  *    únicamente con getConnection().
  */
-public class BaseDao { // TODO 2a: convertir en clase abstracta
+public abstract class BaseDao { // TODO 2a: convertir en clase abstracta
 
     private static final String URL = "jdbc:mysql://localhost:3306/telecom_andina";
     private static final String USER = "root";
