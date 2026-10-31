@@ -9,7 +9,7 @@ package pe.edu.pucp.iweb.lab7.beans;
  *
  * Los atributos, getters y setters ya están hechos.
  */
-public class EquipoRed { // TODO 2b: convertir en clase abstracta
+public abstract class EquipoRed { // TODO 2b: convertir en clase abstracta
 
     private int idEquipo;
     private String modelo;
